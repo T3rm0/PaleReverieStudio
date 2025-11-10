@@ -22,7 +22,9 @@ createRoot(document.getElementById("root")).render(
 					<Route path="/studio" element={<Studio />} />
 					<Route path="/contacts" element={<Contacts />} />
 				</Routes>
-				<div className="footer"></div>
+				<div className="footer">
+					<p>© Pale Reverie Studio, 2025</p>
+				</div>
 			</div>
 		</BrowserRouter>
 	</StrictMode>

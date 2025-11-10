@@ -25,14 +25,68 @@ function Portfolio() {
 					Some videos demonstrating our composition skills, which
 					could be tied to videogames and other media.
 				</p>
-				<div className="yt-frame">
+				<div className="yt-frame-grid">
+					<div className="yt-frame">
+						<iframe
+							width="560"
+							height="315"
+							src="https://www.youtube.com/embed/h5o_aWQlLsQ?si=mzfH2eRinBFTWYTH"
+							title="TetherGeist - Indie Game Music Contest 2025"
+							frameborder="0"
+							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+							allowfullscreen
+							style={{ filter: "grayscale(100%)" }}
+						></iframe>
+					</div>
+					<div className="yt-frame">
+						<iframe
+							width="560"
+							height="315"
+							src="https://www.youtube.com/embed/3eMv-57s22k"
+							title='"Little town" - 16Bit music short clip'
+							frameborder="0"
+							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+							referrerpolicy="strict-origin-when-cross-origin"
+							allowfullscreen
+							style={{ filter: "grayscale(100%)" }}
+						></iframe>
+					</div>
+					<div className="yt-frame">
+						<iframe
+							width="560"
+							height="315"
+							src="https://www.youtube.com/embed/Uk2hW2Z_w-I"
+							title='"Soothe" - Orchestral music short clip'
+							frameborder="0"
+							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+							referrerpolicy="strict-origin-when-cross-origin"
+							allowfullscreen
+							style={{ filter: "grayscale(100%)" }}
+						></iframe>
+					</div>
+					<div className="yt-frame">
+						<iframe
+							width="560"
+							height="315"
+							src="https://www.youtube.com/embed/pW7OlERDEwk"
+							title='"Start the adventure!" - Orchestral music short clip'
+							frameborder="0"
+							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+							referrerpolicy="strict-origin-when-cross-origin"
+							allowfullscreen
+							style={{ filter: "grayscale(100%)" }}
+						></iframe>
+					</div>
+				</div>
+				<div className="yt-frame last">
 					<iframe
 						width="560"
 						height="315"
-						src="https://www.youtube.com/embed/h5o_aWQlLsQ?si=mzfH2eRinBFTWYTH"
-						title="YouTube video player"
+						src="https://www.youtube.com/embed/cfvOv2WSSD0"
+						title="Battle, begin! - 16bit music clip"
 						frameborder="0"
 						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+						referrerpolicy="strict-origin-when-cross-origin"
 						allowfullscreen
 						style={{ filter: "grayscale(100%)" }}
 					></iframe>
