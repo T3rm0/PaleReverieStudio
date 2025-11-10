@@ -29,10 +29,10 @@ function Portfolio() {
 						<iframe
 							width="560"
 							height="315"
-							src="https://www.youtube.com/embed/h5o_aWQlLsQ?si=mzfH2eRinBFTWYTH"
+							src="https://www.youtube-nocookie.com/embed/h5o_aWQlLsQ?si=mzfH2eRinBFTWYTH"
 							title="TetherGeist - Indie Game Music Contest 2025"
 							frameborder="0"
-							allowfullscreen
+							allowFullScreen
 							style={{ filter: "grayscale(100%)" }}
 						></iframe>
 					</div>
@@ -43,7 +43,7 @@ function Portfolio() {
 							src="https://www.youtube-nocookie.com/embed/3eMv-57s22k"
 							title='"Little town" - 16Bit music short clip'
 							frameborder="0"
-							allowfullscreen
+							allowFullScreen
 							style={{ filter: "grayscale(100%)" }}
 						></iframe>
 					</div>
@@ -54,7 +54,7 @@ function Portfolio() {
 							src="https://www.youtube-nocookie.com/embed/Uk2hW2Z_w-I"
 							title='"Soothe" - Orchestral music short clip'
 							frameborder="0"
-							allowfullscreen
+							allowFullScreen
 							style={{ filter: "grayscale(100%)" }}
 						></iframe>
 					</div>
@@ -65,7 +65,7 @@ function Portfolio() {
 							src="https://www.youtube-nocookie.com/embed/pW7OlERDEwk"
 							title='"Start the adventure!" - Orchestral music short clip'
 							frameborder="0"
-							allowfullscreen
+							allowFullScreen
 							style={{ filter: "grayscale(100%)" }}
 						></iframe>
 					</div>
@@ -77,7 +77,7 @@ function Portfolio() {
 						src="https://www.youtube-nocookie.com/embed/cfvOv2WSSD0"
 						title="Battle, begin! - 16bit music clip"
 						frameborder="0"
-						allowfullscreen
+						allowFullScreen
 						style={{ filter: "grayscale(100%)" }}
 					></iframe>
 				</div>
