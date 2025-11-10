@@ -14,7 +14,6 @@ function Portfolio() {
 					width="50%"
 					height="500"
 					frameBorder="0"
-					allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
 					loading="lazy"
 				></iframe>
 			</div>
@@ -44,7 +43,6 @@ function Portfolio() {
 							src="https://www.youtube-nocookie.com/embed/3eMv-57s22k"
 							title='"Little town" - 16Bit music short clip'
 							frameborder="0"
-							referrerpolicy="strict-origin-when-cross-origin"
 							allowfullscreen
 							style={{ filter: "grayscale(100%)" }}
 						></iframe>
@@ -56,7 +54,6 @@ function Portfolio() {
 							src="https://www.youtube-nocookie.com/embed/Uk2hW2Z_w-I"
 							title='"Soothe" - Orchestral music short clip'
 							frameborder="0"
-							referrerpolicy="strict-origin-when-cross-origin"
 							allowfullscreen
 							style={{ filter: "grayscale(100%)" }}
 						></iframe>
@@ -68,7 +65,6 @@ function Portfolio() {
 							src="https://www.youtube-nocookie.com/embed/pW7OlERDEwk"
 							title='"Start the adventure!" - Orchestral music short clip'
 							frameborder="0"
-							referrerpolicy="strict-origin-when-cross-origin"
 							allowfullscreen
 							style={{ filter: "grayscale(100%)" }}
 						></iframe>
@@ -81,7 +77,6 @@ function Portfolio() {
 						src="https://www.youtube-nocookie.com/embed/cfvOv2WSSD0"
 						title="Battle, begin! - 16bit music clip"
 						frameborder="0"
-						referrerpolicy="strict-origin-when-cross-origin"
 						allowfullscreen
 						style={{ filter: "grayscale(100%)" }}
 					></iframe>
