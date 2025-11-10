@@ -1,6 +1,6 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import { BrowserRouter, Route, Routes } from "react-router";
+import { BrowserRouter, Navigate, Route, Routes } from "react-router";
 import Header from "./Header";
 import "./index.css";
 import "./App.css";
@@ -21,6 +21,7 @@ createRoot(document.getElementById("root")).render(
 					<Route path="/portfolio" element={<Portfolio />} />
 					<Route path="/studio" element={<Studio />} />
 					<Route path="/contacts" element={<Contacts />} />
+					<Route path="*" element={<Navigate to="/" replace />} />
 				</Routes>
 				<div className="footer">
 					<p>© Pale Reverie Studio, 2025</p>
