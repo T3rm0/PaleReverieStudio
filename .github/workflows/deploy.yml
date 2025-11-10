@@ -37,8 +37,10 @@ jobs:
           cache: 'npm'
       - name: Install dependencies
         run: npm ci
+        working-directory: ./pale-reverie-studio
       - name: Build
         run: npm run build
+        working-directory: ./pale-reverie-studio
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
