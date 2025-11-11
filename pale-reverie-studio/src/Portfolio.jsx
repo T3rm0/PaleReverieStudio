@@ -1,5 +1,10 @@
+import { useEffect } from "react";
+import { useMediaQuery } from "react-responsive";
 import "./App.css";
 function Portfolio() {
+	const isMobile = useMediaQuery({ width: 310 });
+	const isTablet = useMediaQuery({ width: 400 });
+	const isDesktop = useMediaQuery({ width: 560 });
 	return (
 		<div>
 			<div className="portfolio-spoti">
@@ -27,7 +32,7 @@ function Portfolio() {
 				<div className="yt-frame-grid">
 					<div className="yt-frame">
 						<iframe
-							width="560"
+							width="100%"
 							height="315"
 							src="https://www.youtube-nocookie.com/embed/h5o_aWQlLsQ?si=mzfH2eRinBFTWYTH"
 							title="TetherGeist - Indie Game Music Contest 2025"
@@ -38,7 +43,7 @@ function Portfolio() {
 					</div>
 					<div className="yt-frame">
 						<iframe
-							width="560"
+							width="100%"
 							height="315"
 							src="https://www.youtube-nocookie.com/embed/3eMv-57s22k"
 							title='"Little town" - 16Bit music short clip'
@@ -49,7 +54,7 @@ function Portfolio() {
 					</div>
 					<div className="yt-frame">
 						<iframe
-							width="560"
+							width="100%"
 							height="315"
 							src="https://www.youtube-nocookie.com/embed/Uk2hW2Z_w-I"
 							title='"Soothe" - Orchestral music short clip'
@@ -60,7 +65,7 @@ function Portfolio() {
 					</div>
 					<div className="yt-frame">
 						<iframe
-							width="560"
+							width="100%"
 							height="315"
 							src="https://www.youtube-nocookie.com/embed/pW7OlERDEwk"
 							title='"Start the adventure!" - Orchestral music short clip'
@@ -72,7 +77,7 @@ function Portfolio() {
 				</div>
 				<div className="yt-frame last">
 					<iframe
-						width="560"
+						width="100%"
 						height="315"
 						src="https://www.youtube-nocookie.com/embed/cfvOv2WSSD0"
 						title="Battle, begin! - 16bit music clip"
